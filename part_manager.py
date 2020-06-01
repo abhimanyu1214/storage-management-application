@@ -33,7 +33,7 @@ def select_item(event):
  price_entry.insert(END, selected_item[4])
  except IndexError:
  pass
-Submitted by:- Abhimanyu Kumar Roy Reg.No:- RA1711003030575
+
 def remove_item():
  db.remove(selected_item[0])
  clear_text()
